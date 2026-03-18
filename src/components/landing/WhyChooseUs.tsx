@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
 import {
   Heart,
   MapPin,
@@ -10,12 +8,10 @@ import {
   DollarSign,
 } from "lucide-react";
 import { WHY_CHOOSE_US } from "@/data/landing";
-import { landingImages } from "./assets";
 
 const icons = [Heart, MapPin, Package, DollarSign];
 
 export default function WhyChooseUs() {
-  const img = landingImages.featureTracking;
   return (
     <section
       id="por-que-golozur"

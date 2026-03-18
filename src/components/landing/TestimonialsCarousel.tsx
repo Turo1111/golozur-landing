@@ -2,14 +2,11 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { TESTIMONIALS } from "@/data/landing";
-import { landingImages } from "./assets";
 
 export default function TestimonialsCarousel() {
   const [current, setCurrent] = useState(0);
-  const decor = landingImages.testimonialDecor;
 
   const goTo = (i: number) => {
     setCurrent((i + TESTIMONIALS.length) % TESTIMONIALS.length);

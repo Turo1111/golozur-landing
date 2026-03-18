@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import { landingImages } from "./assets";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -11,7 +9,6 @@ export default function FinalCTA() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
-  const img = landingImages.ctaNewsletter;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

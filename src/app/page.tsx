@@ -2,7 +2,6 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import SocialProof from "@/components/landing/SocialProof";
 import ServicesBlueSection from "@/components/landing/ServicesBlueSection";
-import SolutionSection from "@/components/landing/SolutionSection";
 import TestimonialsCarousel from "@/components/landing/TestimonialsCarousel";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import EmergencyBlock from "@/components/landing/EmergencyBlock";
